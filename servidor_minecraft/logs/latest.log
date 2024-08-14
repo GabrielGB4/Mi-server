@@ -578,3 +578,19 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Super 
 [17:19:09] [Server thread/INFO]: GabrielM3 has made the advancement [World of illusion]
 [17:19:58] [Server thread/INFO]: GabrielM3 has made the advancement [Local Brewery]
 [17:20:49] [Server thread/INFO]: GabrielM3 has made the advancement [Take Aim]
+[17:23:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2477ms or 49 ticks behind
+[17:23:42] [Server thread/WARN]: GabrielM3 moved too quickly! 3.064544437398922,4.5,8.532453111475036
+[17:23:51] [Server thread/INFO]: GabrielM3 was slain by Skeleton
+[17:23:52] [Server thread/INFO]: [STDOUT]: copyFrom?
+[17:23:52] [Server thread/INFO]: [STDOUT]: alive?
+[17:23:52] [Netty Epoll Server IO #2/INFO]: [do_a_barrel_roll] Client of GabrielM3 accepted server config.
+[17:24:08] [Server thread/INFO]: [GabrielM3: Set own game mode to Creative Mode]
+[17:25:15] [Server thread/INFO]: [GabrielM3: Set own game mode to Survival Mode]
+[17:25:40] [Server thread/INFO]: GabrielM3 has made the advancement [Cover Me with Diamonds]
+[17:27:25] [Server thread/INFO]: GabrielM3 has made the advancement [Ice Bucket Challenge]
+[17:27:27] [Server thread/INFO]: GabrielM3 has made the advancement [Acquire Hardware]
+[17:29:31] [Server thread/INFO]: GabrielM3 was shot by Skeleton
+[17:29:33] [Server thread/INFO]: [STDOUT]: copyFrom?
+[17:29:33] [Server thread/INFO]: [STDOUT]: alive?
+[17:29:33] [Netty Epoll Server IO #2/INFO]: [do_a_barrel_roll] Client of GabrielM3 accepted server config.
+[17:29:40] [Server thread/INFO]: [GabrielM3: Set own game mode to Creative Mode]
