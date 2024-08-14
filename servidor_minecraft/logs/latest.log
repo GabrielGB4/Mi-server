@@ -594,3 +594,58 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Super 
 [17:29:33] [Server thread/INFO]: [STDOUT]: alive?
 [17:29:33] [Netty Epoll Server IO #2/INFO]: [do_a_barrel_roll] Client of GabrielM3 accepted server config.
 [17:29:40] [Server thread/INFO]: [GabrielM3: Set own game mode to Creative Mode]
+[17:31:23] [Server thread/INFO]: [GabrielM3: Set own game mode to Survival Mode]
+[17:31:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3669ms or 73 ticks behind
+[17:34:42] [Server thread/INFO]: GabrielM3 has made the advancement [Best Friends Forever]
+[17:39:23] [Server thread/INFO]: GabrielM3 was shot by Skeleton
+[17:39:24] [Server thread/INFO]: [STDOUT]: copyFrom?
+[17:39:24] [Server thread/INFO]: [STDOUT]: alive?
+[17:39:25] [Netty Epoll Server IO #2/INFO]: [do_a_barrel_roll] Client of GabrielM3 accepted server config.
+[17:39:34] [Server thread/INFO]: [GabrielM3: Set own game mode to Creative Mode]
+[17:40:00] [Server thread/WARN]: GabrielM3 moved too quickly! 3.886794734037835,3.7500001490114983,-9.267264742023542
+[17:41:14] [Server thread/WARN]: GabrielM3 moved too quickly! 9.645473148044232,-3.3750001341104507,-0.38584907216113606
+[17:41:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[17:42:03] [Server thread/INFO]: GabrielM3 has made the advancement [Isn't It Iron Pick]
+[17:42:27] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[17:42:27] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[17:42:47] [Server thread/INFO]: [GabrielM3: Set own game mode to Survival Mode]
+[17:45:28] [Server thread/WARN]: GabrielM3 moved too quickly! -4.283152438428033,-3.741431828240138,-8.46219781927664
+[17:45:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3043ms or 60 ticks behind
+[17:48:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2494ms or 49 ticks behind
+[17:49:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2128ms or 42 ticks behind
+[17:49:24] [Worker-Main-1/WARN]: Empty height range: [0 absolute--16 absolute]
+[17:49:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2140ms or 42 ticks behind
+[17:51:17] [Server thread/WARN]: GabrielM3 moved too quickly! 6.819629121388289,-2.269943697106818,-7.032495563744078
+[17:51:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2255ms or 45 ticks behind
+[17:54:00] [Server thread/INFO]: GabrielM3 was impaled by Drowned
+[17:54:04] [Server thread/INFO]: [STDOUT]: copyFrom?
+[17:54:04] [Server thread/INFO]: [STDOUT]: alive?
+[17:54:05] [Netty Epoll Server IO #2/INFO]: [do_a_barrel_roll] Client of GabrielM3 accepted server config.
+[17:54:19] [Server thread/INFO]: [GabrielM3: Set own game mode to Creative Mode]
+[17:54:32] [Server thread/WARN]: GabrielM3 moved too quickly! 9.523486550723518,2.623809940682193,-4.4408749686230955
+[17:54:36] [Server thread/WARN]: GabrielM3 moved too quickly! 7.257030071056903,3.2547245693951226,-6.2964521426676185
+[17:54:43] [Server thread/WARN]: GabrielM3 moved too quickly! 6.988688839030573,3.3750001341104507,-6.865438094120293
+[17:54:47] [Server thread/WARN]: GabrielM3 moved too quickly! 6.597776518322661,0.0,-8.56809089867437
+[17:54:52] [Server thread/WARN]: GabrielM3 moved too quickly! 7.636405301940158,0.0,-7.712820392720317
+[17:54:55] [Server thread/WARN]: GabrielM3 moved too quickly! 8.881249767838995,0.0,-5.888616504595575
+[17:55:03] [Server thread/WARN]: GabrielM3 moved too quickly! 8.685744711728205,0.0,-5.8516380538412704
+[17:55:13] [Server thread/WARN]: GabrielM3 moved too quickly! 8.408762509829671,0.0,-6.877769812553993
+[17:55:21] [Server thread/WARN]: GabrielM3 moved too quickly! 5.465309166602424,0.0,-8.55687003131294
+[17:55:40] [Server thread/WARN]: GabrielM3 moved too quickly! 9.198505744109298,3.375000134110394,-2.8164397083971835
+[17:55:42] [Server thread/WARN]: GabrielM3 moved too quickly! 5.817080282548659,2.446947937232977,-8.868771661330925
+[17:55:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3680ms or 73 ticks behind
+[17:56:00] [Server thread/WARN]: GabrielM3 moved too quickly! 10.545285772016541,0.0,-0.644691058802664
+[17:56:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2286ms or 45 ticks behind
+[17:57:24] [Server thread/WARN]: GabrielM3 moved too quickly! 4.550341695324505,0.0,9.248605292277375
+[17:57:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2491ms or 49 ticks behind
+[17:57:50] [Server thread/WARN]: GabrielM3 moved too quickly! -2.1257335829664044,0.0,9.94001432923028
+[17:58:10] [Server thread/WARN]: GabrielM3 moved too quickly! -9.311400204279153,0.0,4.920756997363128
+[17:58:17] [Server thread/WARN]: GabrielM3 moved too quickly! -10.045852590279765,0.0,4.200677035163551
+[17:58:30] [Server thread/WARN]: GabrielM3 moved too quickly! -10.045985406147452,0.0,4.2007325721684765
+[17:59:09] [Server thread/WARN]: GabrielM3 moved too quickly! -9.095443147555045,2.404140828971947,5.192110596543181
+[17:59:58] [Server thread/WARN]: GabrielM3 moved too quickly! -7.85547347894055,-5.36386567345653,4.097352742349756
+[18:00:04] [Server thread/WARN]: GabrielM3 moved too quickly! -8.788845098779944,0.0,5.040497097998184
+[18:00:26] [Server thread/WARN]: GabrielM3 moved too quickly! -9.307462121392149,-2.393755384208106,-5.324772563473516
+[18:00:43] [Server thread/WARN]: GabrielM3 moved too quickly! -6.20125088065393,0.0,-8.944307356044817
+[18:00:50] [Server thread/WARN]: GabrielM3 moved too quickly! -3.3223013482009947,-3.375000134097945,-9.213412315137319
+[18:00:58] [Server thread/WARN]: GabrielM3 moved too quickly! -5.316001305185523,0.0,-9.167577509156922
