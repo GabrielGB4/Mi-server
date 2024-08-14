@@ -690,3 +690,26 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Super 
 [18:28:30] [Worker-Main-2/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:3.602844f,range:8,source:{pos:[I;-404,-59,-499],type:"minecraft:block"}}]
 [18:28:37] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
 [18:29:03] [Server thread/INFO]: GabrielM3 has made the advancement [Isn't It Iron Pick]
+[18:32:20] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:32:20] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:32:20] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:33:01] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:33:01] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:33:01] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:33:01] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:33:01] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:33:03] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:33:03] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:33:04] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:33:04] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:33:04] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:33:04] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:33:04] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:33:04] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:33:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3121ms or 62 ticks behind
+[18:34:37] [Server thread/INFO]: GabrielM3 has made the advancement [Ice Bucket Challenge]
+[18:35:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2346ms or 46 ticks behind
+[18:36:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
+[18:36:38] [Server thread/INFO]: GabrielM3 lost connection: Timed out
+[18:36:38] [Server thread/INFO]: GabrielM3 left the game
+[18:36:38] [Server thread/INFO]: [voicechat] Disconnecting client GabrielM3
