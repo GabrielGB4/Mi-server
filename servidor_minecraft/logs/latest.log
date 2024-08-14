@@ -1,18 +1,18 @@
-[17:00:46] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.0
-[17:00:46] [ForkJoinPool-1-worker-2/WARN]: Mod tectonic uses the version 2.3.5b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '5b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[17:00:46] [ForkJoinPool-1-worker-4/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[17:00:47] [ForkJoinPool-1-worker-2/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[18:11:56] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.0
+[18:11:56] [ForkJoinPool-1-worker-2/WARN]: Mod tectonic uses the version 2.3.5b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '5b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:11:56] [ForkJoinPool-1-worker-1/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:11:56] [ForkJoinPool-1-worker-2/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 12
-[17:00:47] [ForkJoinPool-1-worker-3/WARN]: Mod ultris_mr uses the version 5.6.9c which isn't compatible with Loader's extended semantic version format (Could not parse version number component '9c'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[17:00:47] [ForkJoinPool-1-worker-2/WARN]: Mod globalpacks uses the version 1.16.1_fabric which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1_fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[17:00:47] [main/WARN]: Warnings were found!
+[18:11:56] [ForkJoinPool-1-worker-2/WARN]: Mod ultris_mr uses the version 5.6.9c which isn't compatible with Loader's extended semantic version format (Could not parse version number component '9c'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:11:57] [ForkJoinPool-1-worker-1/WARN]: Mod globalpacks uses the version 1.16.1_fabric which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1_fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:11:57] [main/WARN]: Warnings were found!
  - Mod 'Exposure' (exposure) 1.6.0 recommends version 0.5.1-f or later of create, which is missing!
 	 - You should install version 0.5.1-f or later of create for the optimal experience.
  - Mod 'Scout' (scout) 2.0.4+1.20.1 recommends version 1.1.3 or later of emi, which is missing!
 	 - You should install version 1.1.3 or later of emi for the optimal experience.
  - Mod 'Simply Swords' (simplyswords) 1.55.0-1.20.1 recommends version 1.7.2 or later of bettercombat, which is missing!
 	 - You should install version 1.7.2 or later of bettercombat for the optimal experience.
-[17:00:47] [main/INFO]: Loading 220 mods:
+[18:11:57] [main/INFO]: Loading 220 mods:
 	- adventurez 1.4.20
 	- another_furniture 1.20.1-3.0.1
 	- antique-atlas 2.9.0+1.20
@@ -250,55 +250,56 @@
 	   \-- org_javassist_javassist 3.29.2-GA
 	- yungsbridges 1.20-Fabric-4.0.3
 	- yungsextras 1.20-Fabric-4.0.3
-[17:00:47] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Mi-server/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[17:00:47] [main/INFO]: Compatibility level set to JAVA_17
-[17:00:48] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[17:00:48] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[17:00:48] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[17:00:48] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[17:00:48] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[17:00:48] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[17:00:48] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[17:00:48] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[17:00:48] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[17:00:48] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[17:00:48] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[17:00:48] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[17:00:48] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[17:00:48] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[17:00:48] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@9.2.14 (*) (defined in c2me)
-[17:00:48] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[17:00:48] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[17:00:48] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
-[17:00:48] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[17:00:48] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[17:00:48] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[17:00:48] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[17:00:48] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[17:00:48] [main/WARN]: Reference map 'fabric-chunkpregen-refmap.json' for chunkpregen.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:00:48] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 3 override(s) found
-[17:00:48] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:00:48] [main/WARN]: Reference map 'mysticaloaktree-fabric-refmap.json' for mysticaloaktree.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:00:48] [main/WARN]: Reference map 'mysticaloaktree-common-refmap.json' for mysticaloaktree-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:00:48] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:00:48] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:00:48] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:00:48] [main/WARN]: Error loading class: net/minecraft/class_636 (java.lang.ClassNotFoundException: net/minecraft/class_636)
-[17:00:48] [main/WARN]: @Mixin target net.minecraft.class_636 was not found crab.mixins.json:ClientPlayerInteractionManagerMixin from mod crab
-[17:00:48] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
-[17:00:48] [main/WARN]: @Mixin target net.minecraft.class_465 was not found creativecore.fabric.mixins.json:AbstractContainerScreenMixin from mod creativecore
-[17:00:49] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.BrainMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
-[17:00:49] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.MultiTickTaskMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
-[17:00:49] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[17:00:49] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me]) disables it and children
-[17:00:49] [main/WARN]: Error loading class: net/coderbot/iris/Iris (java.lang.ClassNotFoundException: net/coderbot/iris/Iris)
-[17:00:49] [main/WARN]: @Mixin target net.coderbot.iris.Iris was not found notenoughcrashes.fabric.mixins.json:iris.SilentNEC from mod notenoughcrashes
-[17:00:49] [main/WARN]: Error loading class: net/minecraft/class_4224 (java.lang.ClassNotFoundException: net/minecraft/class_4224)
-[17:00:49] [main/WARN]: @Mixin target net.minecraft.class_4224 was not found sound_physics_remastered.mixins.json:ChannelAccessor from mod sound_physics_remastered
-[17:00:49] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[17:00:49] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[17:00:49] [main/WARN]: Error loading class: net/minecraft/class_8609 (java.lang.ClassNotFoundException: net/minecraft/class_8609)
-[17:00:49] [main/ERROR]: crab.mixins.json:ServerPlayNetworkHandlerMixin from mod crab: Super class 'net.minecraft.class_8609' of ServerPlayNetworkHandlerMixin was not found in the hierarchy of target class 'net/minecraft/class_3244'
+[18:11:57] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Mi-server/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:11:57] [main/INFO]: Compatibility level set to JAVA_17
+[18:11:57] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[18:11:58] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[18:11:58] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[18:11:58] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[18:11:58] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[18:11:58] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[18:11:58] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[18:11:58] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[18:11:58] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[18:11:58] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[18:11:58] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[18:11:58] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[18:11:58] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[18:11:58] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[18:11:58] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@9.2.14 (*) (defined in c2me)
+[18:11:58] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[18:11:58] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[18:11:58] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[18:11:58] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[18:11:58] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[18:11:58] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[18:11:58] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[18:11:58] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[18:11:58] [main/WARN]: Reference map 'fabric-chunkpregen-refmap.json' for chunkpregen.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:11:58] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 3 override(s) found
+[18:11:58] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:11:58] [main/WARN]: Reference map 'mysticaloaktree-fabric-refmap.json' for mysticaloaktree.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:11:58] [main/WARN]: Reference map 'mysticaloaktree-common-refmap.json' for mysticaloaktree-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:11:58] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:11:58] [main/WARN]: Reference map 'weaponmaster-client-only-fabric-1.20.1-refmap.json' for weaponmaster.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:11:58] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:11:58] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:11:58] [main/WARN]: Error loading class: net/minecraft/class_636 (java.lang.ClassNotFoundException: net/minecraft/class_636)
+[18:11:58] [main/WARN]: @Mixin target net.minecraft.class_636 was not found crab.mixins.json:ClientPlayerInteractionManagerMixin from mod crab
+[18:11:58] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[18:11:58] [main/WARN]: @Mixin target net.minecraft.class_465 was not found creativecore.fabric.mixins.json:AbstractContainerScreenMixin from mod creativecore
+[18:11:59] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.BrainMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
+[18:11:59] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.MultiTickTaskMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
+[18:11:59] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[18:11:59] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me]) disables it and children
+[18:11:59] [main/WARN]: Error loading class: net/coderbot/iris/Iris (java.lang.ClassNotFoundException: net/coderbot/iris/Iris)
+[18:11:59] [main/WARN]: @Mixin target net.coderbot.iris.Iris was not found notenoughcrashes.fabric.mixins.json:iris.SilentNEC from mod notenoughcrashes
+[18:11:59] [main/WARN]: Error loading class: net/minecraft/class_4224 (java.lang.ClassNotFoundException: net/minecraft/class_4224)
+[18:11:59] [main/WARN]: @Mixin target net.minecraft.class_4224 was not found sound_physics_remastered.mixins.json:ChannelAccessor from mod sound_physics_remastered
+[18:11:59] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[18:11:59] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[18:11:59] [main/WARN]: Error loading class: net/minecraft/class_8609 (java.lang.ClassNotFoundException: net/minecraft/class_8609)
+[18:11:59] [main/ERROR]: crab.mixins.json:ServerPlayNetworkHandlerMixin from mod crab: Super class 'net.minecraft.class_8609' of ServerPlayNetworkHandlerMixin was not found in the hierarchy of target class 'net/minecraft/class_3244'
 org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Super class 'net.minecraft.class_8609' of ServerPlayNetworkHandlerMixin was not found in the hierarchy of target class 'net/minecraft/class_3244'
 	at org.spongepowered.asm.mixin.transformer.MixinInfo$SubType$Standard.validate(MixinInfo.java:593) ~[sponge-mixin-0.15.0+mixin.0.8.7.jar:0.15.0+mixin.0.8.7]
 	at org.spongepowered.asm.mixin.transformer.MixinInfo$State.validate(MixinInfo.java:327) ~[sponge-mixin-0.15.0+mixin.0.8.7.jar:0.15.0+mixin.0.8.7]
@@ -327,325 +328,351 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Super 
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[17:00:49] [main/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
-[17:00:49] [main/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
-[17:00:49] [main/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
-[17:00:49] [main/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
-[17:00:49] [main/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
-[17:00:49] [main/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
-[17:00:49] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
-[17:01:00] [main/ERROR]: No data fixer registered for deeperdarker:boat
-[17:01:00] [main/ERROR]: No data fixer registered for deeperdarker:chest_boat
-[17:01:00] [main/ERROR]: No data fixer registered for deeperdarker:sculk_centipede
-[17:01:00] [main/ERROR]: No data fixer registered for deeperdarker:sculk_leech
-[17:01:00] [main/ERROR]: No data fixer registered for deeperdarker:sculk_snapper
-[17:01:00] [main/ERROR]: No data fixer registered for deeperdarker:shattered
-[17:01:00] [main/ERROR]: No data fixer registered for deeperdarker:shriek_worm
-[17:01:00] [main/ERROR]: No data fixer registered for deeperdarker:shriek_worm
-[17:01:00] [main/INFO]: [rightclickharvest] Initializing VersionUtils
-[17:01:00] [main/INFO]: [rightclickharvest] VersionUtils initialized successfully
-[17:01:00] [main/INFO]: [STDOUT]: (Quilt Config) Field 'java.lang.Boolean:debugMode' is final! This may cause broken behaviour, and is not recommended. Either move to the new ReflectiveConfig API or remove the final modifier.
-[17:01:00] [main/INFO]: [STDOUT]: (Quilt Config) Field 'java.lang.Boolean:shareAllTerrain' is final! This may cause broken behaviour, and is not recommended. Either move to the new ReflectiveConfig API or remove the final modifier.
-[17:01:00] [main/INFO]: [STDOUT]: (Quilt Config) Field 'java.lang.Boolean:shareAllStructures' is final! This may cause broken behaviour, and is not recommended. Either move to the new ReflectiveConfig API or remove the final modifier.
-[17:01:00] [main/INFO]: [STDOUT]: (Quilt Config) Field 'java.lang.Boolean:shareAllLandmarks' is final! This may cause broken behaviour, and is not recommended. Either move to the new ReflectiveConfig API or remove the final modifier.
-[17:01:00] [main/INFO]: [STDOUT]: (Quilt Config) Field 'java.lang.Integer:ticksPerFriendUpdate' is final! This may cause broken behaviour, and is not recommended. Either move to the new ReflectiveConfig API or remove the final modifier.
-[17:01:00] [main/INFO]: Initializing Backported-Wolves Config.
-[17:01:00] [main/INFO]: backported_wolves registered wolf spawns successfully.
-[17:01:00] [main/INFO]: Reflections took 56 ms to scan 1 urls, producing 1 keys and 2 values
-[17:01:00] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
-[17:01:00] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
-[17:01:00] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[17:01:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[17:01:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[17:01:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[17:01:00] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
-[17:01:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[17:01:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[17:01:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[17:01:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[17:01:00] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[17:01:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[17:01:00] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[17:01:00] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[17:01:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[17:01:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[17:01:01] [main/INFO]: Loading Collective version 7.61.
-[17:01:01] [main/INFO]: [STDOUT]: All 4 have been set properly
-[17:01:01] [main/INFO]: [STDOUT]: Registered Mod Items for crab
-[17:01:01] [main/ERROR]: No data fixer registered for jungle_creeper
-[17:01:01] [main/ERROR]: No data fixer registered for bamboo_creeper
-[17:01:01] [main/ERROR]: No data fixer registered for desert_creeper
-[17:01:01] [main/ERROR]: No data fixer registered for badlands_creeper
-[17:01:01] [main/ERROR]: No data fixer registered for hills_creeper
-[17:01:01] [main/ERROR]: No data fixer registered for savannah_creeper
-[17:01:01] [main/ERROR]: No data fixer registered for mushroom_creeper
-[17:01:01] [main/ERROR]: No data fixer registered for swamp_creeper
-[17:01:01] [main/ERROR]: No data fixer registered for dripstone_creeper
-[17:01:01] [main/ERROR]: No data fixer registered for cave_creeper
-[17:01:01] [main/ERROR]: No data fixer registered for dark_oak_creeper
-[17:01:01] [main/ERROR]: No data fixer registered for spruce_creeper
-[17:01:01] [main/ERROR]: No data fixer registered for beach_creeper
-[17:01:01] [main/ERROR]: No data fixer registered for snowy_creeper
-[17:01:01] [main/ERROR]: No data fixer registered for ocean_creeper
-[17:01:01] [main/INFO]: Deserializing DDConfig from './config/deeperdarker.json5'
-[17:01:01] [main/INFO]: Hello Fabric world!
-[17:01:01] [main/INFO]: Constructing common components for easyanvils:main
-[17:01:01] [Cicada thread 0/INFO]: 'I AM THE EGGEST OF THEM ALL' - Louise_DS (she/her)
-[17:01:01] [main/INFO]: Constructing common components for easymagic:main
-[17:01:01] [main/INFO]: Constructing common components for easyshulkerboxes:main
-[17:01:01] [main/INFO]: Mod loaded successfully
-[17:01:01] [main/INFO]: Constructing common components for hangglider:main
-[17:01:02] [main/INFO]: [jamlib] Mod initialized!
-[17:01:02] [main/INFO]: [KONKRETE] Successfully initialized!
-[17:01:02] [main/INFO]: [KONKRETE] Server-side libs ready to use!
-[17:01:02] [main/INFO]: [MELODY] Disabling Melody since it's loaded server-side.
-[17:01:02] [main/INFO]: Loading Noisium.
-[17:01:02] [ForkJoinPool.commonPool-worker-1/INFO]: [Friends&Foes] An update is available! You are using 2.0.10 version, but the latest version is 2.0.16.
-[17:01:02] [main/INFO]: Constructing common components for pickupnotifier:main
-[17:01:02] [main/INFO]: Constructing common components for puzzlesapi:iteminteractions
-[17:01:02] [main/INFO]: Constructing common components for puzzlesapi:slotcycling
-[17:01:02] [main/INFO]: Constructing common components for puzzlesapi:limitlesscontainers
-[17:01:02] [main/INFO]: Constructing common components for puzzlesapi:statues
-[17:01:02] [main/INFO]: Constructing common components for puzzleslib:main
-[17:01:02] [main/INFO]: Reflections took 15 ms to scan 1 urls, producing 6 keys and 36 values
-[17:01:02] [main/INFO]: Reflections took 13 ms to scan 1 urls, producing 6 keys and 36 values
-[17:01:02] [main/INFO]: Registering Ribbit instruments...
-[17:01:02] [main/INFO]: Registering Ribbit umbrella types...
-[17:01:02] [main/INFO]: Registering Ribbit professions...
-[17:01:02] [main/INFO]: Registering Ribbit data serializers...
-[17:01:02] [main/INFO]: [jamlib] Registered config for rightclickharvest
-[17:01:02] [main/INFO]: [rightclickharvest] Mod initialized!
-[17:01:02] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[17:01:02] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
-[17:01:02] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
-[17:01:02] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
-[17:01:02] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
-[17:01:02] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
-[17:01:02] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
-[17:01:02] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[17:01:02] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
-[17:01:02] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[17:01:02] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[17:01:02] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
-[17:01:02] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[17:01:03] [main/ERROR]: No data fixer registered for battlestandard
-[17:01:03] [main/ERROR]: No data fixer registered for battlestandarddark
-[17:01:03] [main/ERROR]: No data fixer registered for simplyswords:simplybeeentity
-[17:01:03] [main/INFO]: [STDOUT]: /workspaces/Mi-server/servidor_minecraft/config
-[17:01:03] [main/INFO]: Loading SnufflesConfig...
-[17:01:03] [main/INFO]: Reloading reverb parameters
-[17:01:03] [main/WARN]: Sound event snuffles:entity.snuffle.step not found
-[17:01:03] [main/WARN]: Sound event snuffles:entity.snuffle.shear not found
-[17:01:03] [main/WARN]: Sound event snuffles:entity.snuffle.eat not found
-[17:01:03] [main/WARN]: Sound event snuffles:entity.snuffle.style not found
-[17:01:03] [main/WARN]: Sound event snuffles:block.frosty_fluff.thaw not found
-[17:01:03] [main/WARN]: Sound event snuffles:entity.snuffle.death not found
-[17:01:03] [main/WARN]: Sound event snuffles:entity.snuffle.shake not found
-[17:01:03] [main/WARN]: Sound event snuffles:entity.snuffle.ambient not found
-[17:01:03] [main/WARN]: Sound event snuffles:entity.snuffle.hurt not found
-[17:01:03] [main/WARN]: Sound event snuffles:entity.snuffle.thaw not found
-[17:01:03] [main/INFO]: !?
-[17:01:03] [main/INFO]: Registering Mod Items for torchesntrinkets
-[17:01:03] [main/INFO]: Registering Item Groups fortorchesntrinkets
-[17:01:03] [main/INFO]: [voicechat] Compatibility version 18
-[17:01:04] [main/INFO]: [voicechat] Loading plugins
-[17:01:04] [main/INFO]: [voicechat] Loaded 2 plugin(s)
-[17:01:04] [main/INFO]: [voicechat] Initializing plugins
-[17:01:04] [main/INFO]: Initializing Simple Voice Chat integration
-[17:01:04] [main/INFO]: [voicechat] Initialized 2 plugin(s)
-[17:01:04] [main/INFO]: [voicechat] Registering events for 'sound_physics_remastered'
-[17:01:04] [main/INFO]: [voicechat] Registering events for 'vcinteraction'
-[17:01:04] [main/INFO]: [STDOUT]: All 86 have been set properly
-[17:01:04] [main/INFO]: Initialize YDM's WeaponMaster Mod!
-[17:01:04] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
-[17:01:04] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
-[17:01:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[17:01:04] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
-[17:01:04] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
-[17:01:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[17:01:04] [main/INFO]: Initialized block sets in 24ms
-[17:01:04] [main/INFO]: Loaded config sawmill-common.json
-[17:01:04] [main/INFO]: Initialized color sets in 52ms
-[17:01:04] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:01:06] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[17:01:07] [Worker-Main-2/ERROR]: Couldn't load tag frozenlib:dont_emit_use_game_events as it is missing following references: deeperdarker:transmitter (from fabric)
-[17:01:08] [main/INFO]: Intercepted tag results
-[17:01:11] [main/INFO]: Generating Sawmill Recipes
-[17:01:11] [main/INFO]: Generated Sawmill recipes in 48 milliseconds
-[17:01:11] [main/INFO]: Loaded 8 recipes
-[17:01:11] [main/INFO]: Loaded 2191 advancements
-[17:01:11] [main/INFO]: Loading exposure lenses:
-[17:01:11] [main/INFO]: Lens [exposure:spyglass, FocalRange[min=55, max=200]] added.
-[17:01:11] [main/INFO]: [REI] ****************************************
-[17:01:11] [main/INFO]: [REI] REIPlugin starting main-reload for START.
-[17:01:11] [main/INFO]: [REI] Plugins (3):
-[17:01:11] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[17:01:11] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[17:01:11] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[17:01:11] [main/INFO]: [REI] ****************************************
-[17:01:11] [main/INFO]: [REI] ========================================
-[17:01:11] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
-[17:01:11] [main/INFO]: [REI] Plugins (3):
-[17:01:11] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[17:01:11] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[17:01:11] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[17:01:11] [main/INFO]: [REI] ========================================
-[17:01:11] [main/INFO]: [REI] REIPlugin finished post-reload for START in 2.109 ms, totaling 55.61 ms.
-[17:01:11] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 982.3 μs, totaling 5.823 ms.
-[17:01:11] [main/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[17:01:11] [main/INFO]: [REI] REIPlugin starting main-reload for END.
-[17:01:11] [main/INFO]: [REI] Plugins (3):
-[17:01:11] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[17:01:11] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[17:01:11] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[17:01:11] [main/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[17:01:11] [main/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-[17:01:11] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
-[17:01:11] [main/INFO]: [REI] Plugins (3):
-[17:01:11] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[17:01:11] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[17:01:11] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[17:01:11] [main/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-[17:01:11] [main/INFO]: [REI] REIPlugin finished post-reload for END in 1.250 ms, totaling 29.40 ms.
-[17:01:11] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 703.6 μs, totaling 13.73 ms.
-[17:01:11] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: 1_splatus:spellbound/hot
-[17:01:12] [main/INFO]: Applied 12 data villager trades
-[17:01:12] [main/INFO]: Applied 1469 biome modifications to 172 of 185 new biomes in 49.72 ms
-[17:01:12] [Server thread/INFO]: Loading server config for easyanvils
-[17:01:12] [Thread-2/INFO]: Reloading server config for easyanvils
-[17:01:12] [Thread-2/INFO]: Reloading server config for easyanvils
-[17:01:12] [Server thread/INFO]: Loading server config for easymagic
-[17:01:12] [Thread-2/INFO]: Reloading server config for easymagic
-[17:01:12] [Thread-2/INFO]: Reloading server config for easymagic
-[17:01:12] [Server thread/INFO]: Loading server config for hangglider
-[17:01:12] [Thread-2/INFO]: Reloading server config for hangglider
-[17:01:12] [Server thread/INFO]: Loading server config for pickupnotifier
-[17:01:12] [Server thread/INFO]: Loading server config for puzzlesapi
-[17:01:12] [Thread-2/INFO]: Reloading server config for hangglider
-[17:01:12] [Thread-2/INFO]: Reloading server config for pickupnotifier
-[17:01:12] [Thread-2/INFO]: Reloading server config for puzzlesapi
-[17:01:12] [Server thread/INFO]: Injecting Carpenter Village Houses
-[17:01:12] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[17:01:12] [Server thread/INFO]: Loading properties
-[17:01:12] [Server thread/INFO]: Default game type: SURVIVAL
-[17:01:12] [Server thread/INFO]: Generating keypair
-[17:01:13] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:01:13] [Server thread/INFO]: Using epoll channel type
-[17:01:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:01:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:01:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:01:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:01:13] [Server thread/INFO]: Preparing level "world"
-[17:01:13] [Server thread/INFO]: Enforcing safe world random access
-[17:01:13] [Server thread/INFO]: [Surveyor] Loading data for minecraft:overworld
-[17:01:13] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:overworld
-[17:01:14] [Server thread/INFO]: [Surveyor] Loading data for deeperdarker:otherside
-[17:01:14] [Server thread/INFO]: [Surveyor] Finished loading data for deeperdarker:otherside
-[17:01:18] [Server thread/INFO]: [Surveyor] Loading data for the_bumblezone:the_bumblezone
-[17:01:18] [Server thread/INFO]: [Surveyor] Finished loading data for the_bumblezone:the_bumblezone
-[17:01:18] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_nether
-[17:01:18] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_nether
-[17:01:18] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_end
-[17:01:18] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_end
-[17:01:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:01:18] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[17:01:18] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:01:19] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:01:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:01:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:01:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[17:01:21] [Worker-Main-1/INFO]: Preparing spawn area: 5%
-[17:01:21] [Worker-Main-2/INFO]: Preparing spawn area: 8%
-[17:01:22] [Worker-Main-1/INFO]: Preparing spawn area: 17%
-[17:01:22] [Worker-Main-1/INFO]: Preparing spawn area: 43%
-[17:01:23] [Worker-Main-1/INFO]: Preparing spawn area: 68%
-[17:01:23] [Worker-Main-1/INFO]: Preparing spawn area: 85%
-[17:01:24] [Server thread/INFO]: Time elapsed: 6540 ms
-[17:01:24] [Server thread/INFO]: Done (11.320s)! For help, type "help"
-[17:01:24] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[17:01:24] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[17:07:03] [Server thread/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
-[17:07:03] [Server thread/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
-[17:07:03] [Server thread/INFO]: GabrielM3[/[0:0:0:0:0:0:0:1%0]:43188] logged in with entity id 329 at (7.661357852343511, 72.0, -8.389484925206668)
-[17:07:03] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
-[17:07:03] [Server thread/INFO]: GabrielM3 joined the game
-[17:07:08] [Netty Epoll Server IO #2/INFO]: [do_a_barrel_roll] Client of GabrielM3 accepted server config.
-[17:07:08] [Server thread/INFO]: [voicechat] Received secret request of GabrielM3 (18)
-[17:07:08] [Server thread/INFO]: [voicechat] Sent secret to GabrielM3
-[17:09:52] [Server thread/INFO]: GabrielM3 has made the advancement [Stone Age]
-[17:10:18] [Server thread/INFO]: GabrielM3 has made the advancement [Monster Hunter]
-[17:10:31] [Server thread/INFO]: GabrielM3 has made the advancement [Getting an Upgrade]
-[17:19:09] [Server thread/INFO]: GabrielM3 has made the advancement [World of illusion]
-[17:19:58] [Server thread/INFO]: GabrielM3 has made the advancement [Local Brewery]
-[17:20:49] [Server thread/INFO]: GabrielM3 has made the advancement [Take Aim]
-[17:23:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2477ms or 49 ticks behind
-[17:23:42] [Server thread/WARN]: GabrielM3 moved too quickly! 3.064544437398922,4.5,8.532453111475036
-[17:23:51] [Server thread/INFO]: GabrielM3 was slain by Skeleton
-[17:23:52] [Server thread/INFO]: [STDOUT]: copyFrom?
-[17:23:52] [Server thread/INFO]: [STDOUT]: alive?
-[17:23:52] [Netty Epoll Server IO #2/INFO]: [do_a_barrel_roll] Client of GabrielM3 accepted server config.
-[17:24:08] [Server thread/INFO]: [GabrielM3: Set own game mode to Creative Mode]
-[17:25:15] [Server thread/INFO]: [GabrielM3: Set own game mode to Survival Mode]
-[17:25:40] [Server thread/INFO]: GabrielM3 has made the advancement [Cover Me with Diamonds]
-[17:27:25] [Server thread/INFO]: GabrielM3 has made the advancement [Ice Bucket Challenge]
-[17:27:27] [Server thread/INFO]: GabrielM3 has made the advancement [Acquire Hardware]
-[17:29:31] [Server thread/INFO]: GabrielM3 was shot by Skeleton
-[17:29:33] [Server thread/INFO]: [STDOUT]: copyFrom?
-[17:29:33] [Server thread/INFO]: [STDOUT]: alive?
-[17:29:33] [Netty Epoll Server IO #2/INFO]: [do_a_barrel_roll] Client of GabrielM3 accepted server config.
-[17:29:40] [Server thread/INFO]: [GabrielM3: Set own game mode to Creative Mode]
-[17:31:23] [Server thread/INFO]: [GabrielM3: Set own game mode to Survival Mode]
-[17:31:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3669ms or 73 ticks behind
-[17:34:42] [Server thread/INFO]: GabrielM3 has made the advancement [Best Friends Forever]
-[17:39:23] [Server thread/INFO]: GabrielM3 was shot by Skeleton
-[17:39:24] [Server thread/INFO]: [STDOUT]: copyFrom?
-[17:39:24] [Server thread/INFO]: [STDOUT]: alive?
-[17:39:25] [Netty Epoll Server IO #2/INFO]: [do_a_barrel_roll] Client of GabrielM3 accepted server config.
-[17:39:34] [Server thread/INFO]: [GabrielM3: Set own game mode to Creative Mode]
-[17:40:00] [Server thread/WARN]: GabrielM3 moved too quickly! 3.886794734037835,3.7500001490114983,-9.267264742023542
-[17:41:14] [Server thread/WARN]: GabrielM3 moved too quickly! 9.645473148044232,-3.3750001341104507,-0.38584907216113606
-[17:41:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
-[17:42:03] [Server thread/INFO]: GabrielM3 has made the advancement [Isn't It Iron Pick]
-[17:42:27] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[17:42:27] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[17:42:47] [Server thread/INFO]: [GabrielM3: Set own game mode to Survival Mode]
-[17:45:28] [Server thread/WARN]: GabrielM3 moved too quickly! -4.283152438428033,-3.741431828240138,-8.46219781927664
-[17:45:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3043ms or 60 ticks behind
-[17:48:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2494ms or 49 ticks behind
-[17:49:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2128ms or 42 ticks behind
-[17:49:24] [Worker-Main-1/WARN]: Empty height range: [0 absolute--16 absolute]
-[17:49:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2140ms or 42 ticks behind
-[17:51:17] [Server thread/WARN]: GabrielM3 moved too quickly! 6.819629121388289,-2.269943697106818,-7.032495563744078
-[17:51:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2255ms or 45 ticks behind
-[17:54:00] [Server thread/INFO]: GabrielM3 was impaled by Drowned
-[17:54:04] [Server thread/INFO]: [STDOUT]: copyFrom?
-[17:54:04] [Server thread/INFO]: [STDOUT]: alive?
-[17:54:05] [Netty Epoll Server IO #2/INFO]: [do_a_barrel_roll] Client of GabrielM3 accepted server config.
-[17:54:19] [Server thread/INFO]: [GabrielM3: Set own game mode to Creative Mode]
-[17:54:32] [Server thread/WARN]: GabrielM3 moved too quickly! 9.523486550723518,2.623809940682193,-4.4408749686230955
-[17:54:36] [Server thread/WARN]: GabrielM3 moved too quickly! 7.257030071056903,3.2547245693951226,-6.2964521426676185
-[17:54:43] [Server thread/WARN]: GabrielM3 moved too quickly! 6.988688839030573,3.3750001341104507,-6.865438094120293
-[17:54:47] [Server thread/WARN]: GabrielM3 moved too quickly! 6.597776518322661,0.0,-8.56809089867437
-[17:54:52] [Server thread/WARN]: GabrielM3 moved too quickly! 7.636405301940158,0.0,-7.712820392720317
-[17:54:55] [Server thread/WARN]: GabrielM3 moved too quickly! 8.881249767838995,0.0,-5.888616504595575
-[17:55:03] [Server thread/WARN]: GabrielM3 moved too quickly! 8.685744711728205,0.0,-5.8516380538412704
-[17:55:13] [Server thread/WARN]: GabrielM3 moved too quickly! 8.408762509829671,0.0,-6.877769812553993
-[17:55:21] [Server thread/WARN]: GabrielM3 moved too quickly! 5.465309166602424,0.0,-8.55687003131294
-[17:55:40] [Server thread/WARN]: GabrielM3 moved too quickly! 9.198505744109298,3.375000134110394,-2.8164397083971835
-[17:55:42] [Server thread/WARN]: GabrielM3 moved too quickly! 5.817080282548659,2.446947937232977,-8.868771661330925
-[17:55:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3680ms or 73 ticks behind
-[17:56:00] [Server thread/WARN]: GabrielM3 moved too quickly! 10.545285772016541,0.0,-0.644691058802664
-[17:56:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2286ms or 45 ticks behind
-[17:57:24] [Server thread/WARN]: GabrielM3 moved too quickly! 4.550341695324505,0.0,9.248605292277375
-[17:57:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2491ms or 49 ticks behind
-[17:57:50] [Server thread/WARN]: GabrielM3 moved too quickly! -2.1257335829664044,0.0,9.94001432923028
-[17:58:10] [Server thread/WARN]: GabrielM3 moved too quickly! -9.311400204279153,0.0,4.920756997363128
-[17:58:17] [Server thread/WARN]: GabrielM3 moved too quickly! -10.045852590279765,0.0,4.200677035163551
-[17:58:30] [Server thread/WARN]: GabrielM3 moved too quickly! -10.045985406147452,0.0,4.2007325721684765
-[17:59:09] [Server thread/WARN]: GabrielM3 moved too quickly! -9.095443147555045,2.404140828971947,5.192110596543181
-[17:59:58] [Server thread/WARN]: GabrielM3 moved too quickly! -7.85547347894055,-5.36386567345653,4.097352742349756
-[18:00:04] [Server thread/WARN]: GabrielM3 moved too quickly! -8.788845098779944,0.0,5.040497097998184
-[18:00:26] [Server thread/WARN]: GabrielM3 moved too quickly! -9.307462121392149,-2.393755384208106,-5.324772563473516
-[18:00:43] [Server thread/WARN]: GabrielM3 moved too quickly! -6.20125088065393,0.0,-8.944307356044817
-[18:00:50] [Server thread/WARN]: GabrielM3 moved too quickly! -3.3223013482009947,-3.375000134097945,-9.213412315137319
-[18:00:58] [Server thread/WARN]: GabrielM3 moved too quickly! -5.316001305185523,0.0,-9.167577509156922
+[18:11:59] [main/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
+[18:11:59] [main/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
+[18:11:59] [main/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
+[18:11:59] [main/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
+[18:11:59] [main/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
+[18:11:59] [main/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
+[18:11:59] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
+[18:12:08] [main/ERROR]: No data fixer registered for deeperdarker:boat
+[18:12:08] [main/ERROR]: No data fixer registered for deeperdarker:chest_boat
+[18:12:08] [main/ERROR]: No data fixer registered for deeperdarker:sculk_centipede
+[18:12:08] [main/ERROR]: No data fixer registered for deeperdarker:sculk_leech
+[18:12:08] [main/ERROR]: No data fixer registered for deeperdarker:sculk_snapper
+[18:12:08] [main/ERROR]: No data fixer registered for deeperdarker:shattered
+[18:12:08] [main/ERROR]: No data fixer registered for deeperdarker:shriek_worm
+[18:12:08] [main/ERROR]: No data fixer registered for deeperdarker:shriek_worm
+[18:12:08] [main/INFO]: [rightclickharvest] Initializing VersionUtils
+[18:12:08] [main/INFO]: [rightclickharvest] VersionUtils initialized successfully
+[18:12:08] [main/INFO]: [STDOUT]: (Quilt Config) Field 'java.lang.Boolean:debugMode' is final! This may cause broken behaviour, and is not recommended. Either move to the new ReflectiveConfig API or remove the final modifier.
+[18:12:08] [main/INFO]: [STDOUT]: (Quilt Config) Field 'java.lang.Boolean:shareAllTerrain' is final! This may cause broken behaviour, and is not recommended. Either move to the new ReflectiveConfig API or remove the final modifier.
+[18:12:08] [main/INFO]: [STDOUT]: (Quilt Config) Field 'java.lang.Boolean:shareAllStructures' is final! This may cause broken behaviour, and is not recommended. Either move to the new ReflectiveConfig API or remove the final modifier.
+[18:12:08] [main/INFO]: [STDOUT]: (Quilt Config) Field 'java.lang.Boolean:shareAllLandmarks' is final! This may cause broken behaviour, and is not recommended. Either move to the new ReflectiveConfig API or remove the final modifier.
+[18:12:08] [main/INFO]: [STDOUT]: (Quilt Config) Field 'java.lang.Integer:ticksPerFriendUpdate' is final! This may cause broken behaviour, and is not recommended. Either move to the new ReflectiveConfig API or remove the final modifier.
+[18:12:08] [main/INFO]: Initializing Backported-Wolves Config.
+[18:12:08] [main/INFO]: backported_wolves registered wolf spawns successfully.
+[18:12:09] [main/INFO]: Reflections took 58 ms to scan 1 urls, producing 1 keys and 2 values
+[18:12:09] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 2 values
+[18:12:09] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[18:12:09] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[18:12:09] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[18:12:09] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[18:12:09] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[18:12:09] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[18:12:09] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[18:12:09] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[18:12:09] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[18:12:09] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[18:12:09] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[18:12:09] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[18:12:09] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[18:12:09] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[18:12:09] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[18:12:09] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[18:12:09] [main/INFO]: Loading Collective version 7.61.
+[18:12:09] [main/INFO]: [STDOUT]: All 4 have been set properly
+[18:12:09] [main/INFO]: [STDOUT]: Registered Mod Items for crab
+[18:12:09] [main/ERROR]: No data fixer registered for jungle_creeper
+[18:12:09] [main/ERROR]: No data fixer registered for bamboo_creeper
+[18:12:09] [main/ERROR]: No data fixer registered for desert_creeper
+[18:12:09] [main/ERROR]: No data fixer registered for badlands_creeper
+[18:12:09] [main/ERROR]: No data fixer registered for hills_creeper
+[18:12:09] [main/ERROR]: No data fixer registered for savannah_creeper
+[18:12:09] [main/ERROR]: No data fixer registered for mushroom_creeper
+[18:12:09] [main/ERROR]: No data fixer registered for swamp_creeper
+[18:12:09] [main/ERROR]: No data fixer registered for dripstone_creeper
+[18:12:09] [main/ERROR]: No data fixer registered for cave_creeper
+[18:12:09] [main/ERROR]: No data fixer registered for dark_oak_creeper
+[18:12:09] [main/ERROR]: No data fixer registered for spruce_creeper
+[18:12:09] [main/ERROR]: No data fixer registered for beach_creeper
+[18:12:09] [main/ERROR]: No data fixer registered for snowy_creeper
+[18:12:09] [main/ERROR]: No data fixer registered for ocean_creeper
+[18:12:09] [main/INFO]: Deserializing DDConfig from './config/deeperdarker.json5'
+[18:12:09] [main/INFO]: Hello Fabric world!
+[18:12:09] [main/INFO]: Constructing common components for easyanvils:main
+[18:12:09] [Cicada thread 0/INFO]: [do_a_barrel_roll] Why play a flight sim when you have modded Minecraft?
+[18:12:09] [main/INFO]: Constructing common components for easymagic:main
+[18:12:09] [main/INFO]: Constructing common components for easyshulkerboxes:main
+[18:12:09] [main/INFO]: Mod loaded successfully
+[18:12:10] [main/INFO]: Constructing common components for hangglider:main
+[18:12:10] [main/INFO]: [jamlib] Mod initialized!
+[18:12:10] [main/INFO]: [KONKRETE] Successfully initialized!
+[18:12:10] [main/INFO]: [KONKRETE] Server-side libs ready to use!
+[18:12:10] [main/INFO]: [MELODY] Disabling Melody since it's loaded server-side.
+[18:12:10] [main/INFO]: Loading Noisium.
+[18:12:10] [main/INFO]: Constructing common components for pickupnotifier:main
+[18:12:10] [ForkJoinPool.commonPool-worker-1/INFO]: [Friends&Foes] An update is available! You are using 2.0.10 version, but the latest version is 2.0.16.
+[18:12:10] [main/INFO]: Constructing common components for puzzlesapi:iteminteractions
+[18:12:10] [main/INFO]: Constructing common components for puzzlesapi:slotcycling
+[18:12:10] [main/INFO]: Constructing common components for puzzlesapi:limitlesscontainers
+[18:12:10] [main/INFO]: Constructing common components for puzzlesapi:statues
+[18:12:10] [main/INFO]: Constructing common components for puzzleslib:main
+[18:12:10] [main/INFO]: Reflections took 10 ms to scan 1 urls, producing 6 keys and 36 values
+[18:12:10] [main/INFO]: Reflections took 9 ms to scan 1 urls, producing 6 keys and 36 values
+[18:12:10] [main/INFO]: Registering Ribbit instruments...
+[18:12:10] [main/INFO]: Registering Ribbit umbrella types...
+[18:12:10] [main/INFO]: Registering Ribbit professions...
+[18:12:10] [main/INFO]: Registering Ribbit data serializers...
+[18:12:10] [main/INFO]: [jamlib] Registered config for rightclickharvest
+[18:12:10] [main/INFO]: [rightclickharvest] Mod initialized!
+[18:12:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[18:12:10] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[18:12:10] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[18:12:10] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[18:12:10] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[18:12:10] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[18:12:10] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[18:12:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[18:12:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[18:12:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[18:12:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[18:12:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[18:12:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[18:12:11] [main/ERROR]: No data fixer registered for battlestandard
+[18:12:11] [main/ERROR]: No data fixer registered for battlestandarddark
+[18:12:11] [main/ERROR]: No data fixer registered for simplyswords:simplybeeentity
+[18:12:11] [main/INFO]: [STDOUT]: /workspaces/Mi-server/servidor_minecraft/config
+[18:12:11] [main/INFO]: Loading SnufflesConfig...
+[18:12:11] [main/INFO]: Reloading reverb parameters
+[18:12:11] [main/WARN]: Sound event snuffles:entity.snuffle.step not found
+[18:12:11] [main/WARN]: Sound event snuffles:entity.snuffle.shear not found
+[18:12:11] [main/WARN]: Sound event snuffles:entity.snuffle.eat not found
+[18:12:11] [main/WARN]: Sound event snuffles:entity.snuffle.style not found
+[18:12:11] [main/WARN]: Sound event snuffles:block.frosty_fluff.thaw not found
+[18:12:11] [main/WARN]: Sound event snuffles:entity.snuffle.death not found
+[18:12:11] [main/WARN]: Sound event snuffles:entity.snuffle.shake not found
+[18:12:11] [main/WARN]: Sound event snuffles:entity.snuffle.ambient not found
+[18:12:11] [main/WARN]: Sound event snuffles:entity.snuffle.hurt not found
+[18:12:11] [main/WARN]: Sound event snuffles:entity.snuffle.thaw not found
+[18:12:11] [main/INFO]: !?
+[18:12:11] [main/INFO]: Registering Mod Items for torchesntrinkets
+[18:12:11] [main/INFO]: Registering Item Groups fortorchesntrinkets
+[18:12:11] [main/INFO]: [voicechat] Compatibility version 18
+[18:12:11] [main/INFO]: [voicechat] Loading plugins
+[18:12:11] [main/INFO]: [voicechat] Loaded 2 plugin(s)
+[18:12:11] [main/INFO]: [voicechat] Initializing plugins
+[18:12:11] [main/INFO]: Initializing Simple Voice Chat integration
+[18:12:11] [main/INFO]: [voicechat] Initialized 2 plugin(s)
+[18:12:11] [main/INFO]: [voicechat] Registering events for 'sound_physics_remastered'
+[18:12:11] [main/INFO]: [voicechat] Registering events for 'vcinteraction'
+[18:12:11] [main/INFO]: [STDOUT]: All 81 have been set properly
+[18:12:11] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 4 values
+[18:12:11] [main/INFO]: Reflections took 7 ms to scan 1 urls, producing 1 keys and 4 values
+[18:12:11] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[18:12:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[18:12:11] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[18:12:11] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[18:12:11] [main/INFO]: Initialized block sets in 12ms
+[18:12:12] [main/INFO]: Loaded config sawmill-common.json
+[18:12:12] [main/INFO]: Initialized color sets in 23ms
+[18:12:12] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:12:12] [main/INFO]: Found new data pack fabric, loading it automatically
+[18:12:12] [main/INFO]: Found new data pack tectonic/terratonic, loading it automatically
+[18:12:14] [Worker-Main-2/ERROR]: Couldn't load tag frozenlib:dont_emit_use_game_events as it is missing following references: deeperdarker:transmitter (from fabric)
+[18:12:15] [main/INFO]: Intercepted tag results
+[18:12:17] [main/INFO]: Generating Sawmill Recipes
+[18:12:17] [main/INFO]: Generated Sawmill recipes in 45 milliseconds
+[18:12:17] [main/INFO]: Loaded 8 recipes
+[18:12:18] [main/INFO]: Loaded 2191 advancements
+[18:12:18] [main/INFO]: Loading exposure lenses:
+[18:12:18] [main/INFO]: Lens [exposure:spyglass, FocalRange[min=55, max=200]] added.
+[18:12:18] [main/INFO]: [REI] ----------------------------------------
+[18:12:18] [main/INFO]: [REI] REIPlugin starting main-reload for START.
+[18:12:18] [main/INFO]: [REI] Plugins (3):
+[18:12:18] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[18:12:18] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[18:12:18] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[18:12:18] [main/INFO]: [REI] ----------------------------------------
+[18:12:18] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[18:12:18] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
+[18:12:18] [main/INFO]: [REI] Plugins (3):
+[18:12:18] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[18:12:18] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[18:12:18] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[18:12:18] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[18:12:18] [main/INFO]: [REI] REIPlugin finished post-reload for START in 3.909 ms, totaling 43.64 ms.
+[18:12:18] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 701.8 μs, totaling 6.932 ms.
+[18:12:18] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[18:12:18] [main/INFO]: [REI] REIPlugin starting main-reload for END.
+[18:12:18] [main/INFO]: [REI] Plugins (3):
+[18:12:18] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[18:12:18] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[18:12:18] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[18:12:18] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[18:12:18] [main/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[18:12:18] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
+[18:12:18] [main/INFO]: [REI] Plugins (3):
+[18:12:18] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[18:12:18] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[18:12:18] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[18:12:18] [main/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[18:12:18] [main/INFO]: [REI] REIPlugin finished post-reload for END in 1.486 ms, totaling 30.04 ms.
+[18:12:18] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 718.7 μs, totaling 7.742 ms.
+[18:12:18] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: 1_splatus:spellbound/hot
+[18:12:19] [main/INFO]: Applied 12 data villager trades
+[18:12:19] [main/INFO]: Applied 1469 biome modifications to 172 of 185 new biomes in 76.62 ms
+[18:12:19] [Server thread/INFO]: Loading server config for easyanvils
+[18:12:19] [Thread-2/INFO]: Reloading server config for easyanvils
+[18:12:19] [Thread-2/INFO]: Reloading server config for easyanvils
+[18:12:19] [Server thread/INFO]: Loading server config for easymagic
+[18:12:19] [Thread-2/INFO]: Reloading server config for easymagic
+[18:12:19] [Thread-2/INFO]: Reloading server config for easymagic
+[18:12:19] [Server thread/INFO]: Loading server config for hangglider
+[18:12:19] [Thread-2/INFO]: Reloading server config for hangglider
+[18:12:19] [Thread-2/INFO]: Reloading server config for hangglider
+[18:12:19] [Server thread/INFO]: Loading server config for pickupnotifier
+[18:12:19] [Thread-2/INFO]: Reloading server config for pickupnotifier
+[18:12:19] [Thread-2/INFO]: Reloading server config for pickupnotifier
+[18:12:19] [Server thread/INFO]: Loading server config for puzzlesapi
+[18:12:19] [Thread-2/INFO]: Reloading server config for puzzlesapi
+[18:12:19] [Thread-2/INFO]: Reloading server config for puzzlesapi
+[18:12:19] [Server thread/INFO]: Injecting Carpenter Village Houses
+[18:12:19] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[18:12:19] [Server thread/INFO]: Loading properties
+[18:12:19] [Server thread/INFO]: Default game type: SURVIVAL
+[18:12:19] [Server thread/INFO]: Generating keypair
+[18:12:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:12:20] [Server thread/INFO]: Using epoll channel type
+[18:12:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:12:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:12:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:12:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:12:20] [Server thread/INFO]: Preparing level "world"
+[18:12:20] [Server thread/INFO]: Enforcing safe world random access
+[18:12:20] [Server thread/INFO]: [Surveyor] Loading data for minecraft:overworld
+[18:12:20] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:overworld
+[18:12:31] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_nether
+[18:12:31] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_nether
+[18:12:31] [Server thread/INFO]: [Surveyor] Loading data for deeperdarker:otherside
+[18:12:31] [Server thread/INFO]: [Surveyor] Finished loading data for deeperdarker:otherside
+[18:12:31] [Server thread/INFO]: [Surveyor] Loading data for the_bumblezone:the_bumblezone
+[18:12:31] [Server thread/INFO]: [Surveyor] Finished loading data for the_bumblezone:the_bumblezone
+[18:12:31] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_end
+[18:12:31] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_end
+[18:12:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:12:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:12:32] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:12:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:12:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:12:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:12:34] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:12:34] [Worker-Main-1/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]
+[18:12:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:12:35] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[18:12:35] [Worker-Main-3/INFO]: Preparing spawn area: 1%
+[18:12:36] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[18:12:36] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[18:12:37] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[18:12:38] [Worker-Main-1/INFO]: Preparing spawn area: 3%
+[18:12:38] [Worker-Main-2/INFO]: Preparing spawn area: 3%
+[18:12:38] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[18:12:39] [Worker-Main-3/INFO]: Preparing spawn area: 4%
+[18:12:39] [Worker-Main-1/INFO]: Preparing spawn area: 5%
+[18:12:40] [Worker-Main-1/INFO]: Preparing spawn area: 5%
+[18:12:40] [Worker-Main-1/INFO]: Preparing spawn area: 6%
+[18:12:41] [Worker-Main-3/INFO]: Preparing spawn area: 7%
+[18:12:41] [Worker-Main-3/INFO]: Preparing spawn area: 8%
+[18:12:42] [Worker-Main-1/INFO]: Preparing spawn area: 9%
+[18:12:43] [Worker-Main-1/INFO]: Preparing spawn area: 10%
+[18:12:43] [Worker-Main-3/INFO]: Preparing spawn area: 11%
+[18:12:43] [Worker-Main-3/INFO]: Preparing spawn area: 11%
+[18:12:44] [Worker-Main-2/INFO]: Preparing spawn area: 12%
+[18:12:44] [Worker-Main-2/INFO]: Preparing spawn area: 13%
+[18:12:45] [Worker-Main-1/INFO]: Preparing spawn area: 13%
+[18:12:45] [Worker-Main-1/INFO]: Preparing spawn area: 15%
+[18:12:46] [Worker-Main-1/INFO]: Preparing spawn area: 15%
+[18:12:46] [Worker-Main-2/INFO]: Preparing spawn area: 17%
+[18:12:47] [Worker-Main-1/INFO]: Preparing spawn area: 17%
+[18:12:47] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[18:12:48] [Worker-Main-2/INFO]: Preparing spawn area: 19%
+[18:12:48] [Worker-Main-2/INFO]: Preparing spawn area: 20%
+[18:12:49] [Worker-Main-1/INFO]: Preparing spawn area: 22%
+[18:12:49] [Worker-Main-3/INFO]: Preparing spawn area: 22%
+[18:12:50] [Worker-Main-2/INFO]: Preparing spawn area: 23%
+[18:12:50] [Worker-Main-1/INFO]: Preparing spawn area: 24%
+[18:12:51] [Worker-Main-2/INFO]: Preparing spawn area: 26%
+[18:12:51] [Worker-Main-1/INFO]: Preparing spawn area: 27%
+[18:12:52] [Worker-Main-2/INFO]: Preparing spawn area: 28%
+[18:12:52] [Worker-Main-3/INFO]: Preparing spawn area: 29%
+[18:12:53] [Worker-Main-3/INFO]: Preparing spawn area: 30%
+[18:12:53] [Worker-Main-1/INFO]: Preparing spawn area: 31%
+[18:12:54] [Worker-Main-3/INFO]: Preparing spawn area: 32%
+[18:12:54] [Worker-Main-2/INFO]: Preparing spawn area: 33%
+[18:12:55] [Worker-Main-1/INFO]: Preparing spawn area: 34%
+[18:12:55] [Worker-Main-3/INFO]: Preparing spawn area: 35%
+[18:12:56] [Worker-Main-1/INFO]: Preparing spawn area: 35%
+[18:12:56] [Worker-Main-3/INFO]: Preparing spawn area: 37%
+[18:12:57] [Worker-Main-3/INFO]: Preparing spawn area: 37%
+[18:12:57] [Worker-Main-1/INFO]: Preparing spawn area: 39%
+[18:12:58] [Worker-Main-1/INFO]: Preparing spawn area: 41%
+[18:12:58] [Worker-Main-3/WARN]: Empty height range: [0 absolute--16 absolute]
+[18:12:59] [Worker-Main-3/INFO]: Preparing spawn area: 41%
+[18:12:59] [Worker-Main-2/INFO]: Preparing spawn area: 42%
+[18:12:59] [Worker-Main-2/INFO]: Preparing spawn area: 42%
+[18:13:00] [Worker-Main-1/INFO]: Preparing spawn area: 44%
+[18:13:00] [Worker-Main-2/INFO]: Preparing spawn area: 44%
+[18:13:01] [Worker-Main-1/INFO]: Preparing spawn area: 45%
+[18:13:01] [Worker-Main-1/INFO]: Preparing spawn area: 47%
+[18:13:02] [Worker-Main-2/INFO]: Preparing spawn area: 48%
+[18:13:02] [Worker-Main-2/INFO]: Preparing spawn area: 48%
+[18:13:03] [Worker-Main-3/INFO]: Preparing spawn area: 50%
+[18:13:03] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[18:13:04] [Worker-Main-3/INFO]: Preparing spawn area: 52%
+[18:13:04] [Worker-Main-2/INFO]: Preparing spawn area: 53%
+[18:13:05] [Worker-Main-1/INFO]: Preparing spawn area: 54%
+[18:13:05] [Worker-Main-1/INFO]: Preparing spawn area: 55%
+[18:13:06] [Worker-Main-2/INFO]: Preparing spawn area: 56%
+[18:13:06] [Worker-Main-2/INFO]: Preparing spawn area: 56%
+[18:13:07] [Worker-Main-2/INFO]: Preparing spawn area: 58%
+[18:13:07] [Worker-Main-1/INFO]: Preparing spawn area: 59%
+[18:13:08] [Worker-Main-1/INFO]: Preparing spawn area: 60%
+[18:13:08] [Worker-Main-2/INFO]: Preparing spawn area: 61%
+[18:13:09] [Worker-Main-1/INFO]: Preparing spawn area: 62%
+[18:13:09] [Worker-Main-1/INFO]: Preparing spawn area: 63%
+[18:13:10] [Worker-Main-1/INFO]: Preparing spawn area: 64%
+[18:13:10] [Worker-Main-2/INFO]: Preparing spawn area: 67%
+[18:13:11] [Worker-Main-3/INFO]: Preparing spawn area: 68%
+[18:13:11] [Worker-Main-2/INFO]: Preparing spawn area: 68%
+[18:13:12] [Worker-Main-3/INFO]: Preparing spawn area: 69%
+[18:13:12] [Worker-Main-3/INFO]: Preparing spawn area: 70%
+[18:13:13] [Worker-Main-1/INFO]: Preparing spawn area: 71%
+[18:13:13] [Worker-Main-1/INFO]: Preparing spawn area: 72%
+[18:13:14] [Worker-Main-3/INFO]: Preparing spawn area: 73%
+[18:13:14] [Worker-Main-1/INFO]: Preparing spawn area: 74%
+[18:13:15] [Worker-Main-3/INFO]: Preparing spawn area: 75%
+[18:13:15] [Worker-Main-2/INFO]: Preparing spawn area: 77%
+[18:13:16] [Worker-Main-1/INFO]: Preparing spawn area: 79%
+[18:13:16] [Worker-Main-3/INFO]: Preparing spawn area: 80%
+[18:13:17] [Worker-Main-2/INFO]: Preparing spawn area: 81%
+[18:13:17] [Worker-Main-2/INFO]: Preparing spawn area: 83%
+[18:13:18] [Worker-Main-1/INFO]: Preparing spawn area: 83%
+[18:13:18] [Worker-Main-3/INFO]: Preparing spawn area: 83%
+[18:13:19] [Worker-Main-2/INFO]: Preparing spawn area: 85%
+[18:13:19] [Worker-Main-1/INFO]: Preparing spawn area: 86%
+[18:13:20] [Worker-Main-2/INFO]: Preparing spawn area: 88%
+[18:13:20] [Worker-Main-1/INFO]: Preparing spawn area: 89%
+[18:13:21] [Worker-Main-1/INFO]: Preparing spawn area: 90%
+[18:13:21] [Worker-Main-3/INFO]: Preparing spawn area: 92%
+[18:13:22] [Worker-Main-3/INFO]: Preparing spawn area: 94%
+[18:13:22] [Worker-Main-3/INFO]: Preparing spawn area: 95%
+[18:13:23] [Worker-Main-2/INFO]: Preparing spawn area: 96%
+[18:13:23] [Worker-Main-1/INFO]: Preparing spawn area: 98%
+[18:13:24] [Server thread/INFO]: Time elapsed: 52317 ms
+[18:13:24] [Server thread/INFO]: Done (64.074s)! For help, type "help"
+[18:13:24] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[18:13:24] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[18:14:01] [Server thread/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
+[18:14:01] [Server thread/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
+[18:14:01] [Server thread/INFO]: GabrielM3[/[0:0:0:0:0:0:0:1%0]:41394] logged in with entity id 485 at (-6.5, 92.0, 9.5)
+[18:14:01] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[18:14:01] [Server thread/INFO]: GabrielM3 joined the game
+[18:14:01] [Server thread/INFO]: [voicechat] Received secret request of GabrielM3 (18)
+[18:14:01] [Server thread/INFO]: [voicechat] Sent secret to GabrielM3
+[18:14:02] [Netty Epoll Server IO #2/INFO]: [do_a_barrel_roll] Client of GabrielM3 accepted server config.
+[18:14:47] [Server thread/INFO]: [GabrielM3: Teleported GabrielM3 to 697.500000, 132.000000, -785.500000]
+[18:15:16] [Server thread/INFO]: [GabrielM3: Set the world spawn point to 654, 112, -797 [0.0]]
+[18:15:24] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:15:24] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[18:17:01] [Server thread/INFO]: GabrielM3 has made the advancement [Stone Age]
+[18:18:06] [Server thread/INFO]: GabrielM3 has made the advancement [Getting an Upgrade]
