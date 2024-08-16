@@ -598,3 +598,15 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Super 
 [21:25:00] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
 [21:25:00] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
 [21:25:45] [Server thread/INFO]: GabrielM3 has made the advancement [Sweet Dreams]
+[21:26:56] [Server thread/INFO]: Trubite24 has made the advancement [Sweet Dreams]
+[21:27:30] [Server thread/WARN]: Trubite24 moved too quickly! -6.363587879117347,0.2468000194787976,-7.876245836140924
+[21:27:30] [Server thread/WARN]: GabrielM3 moved too quickly! -6.965746690550304,0.7287758923075103,-7.29948573212414
+[21:27:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2418ms or 48 ticks behind
+[21:27:32] [Server thread/INFO]: GabrielM3 has made the advancement [Bewitched]
+[21:27:36] [Server thread/INFO]: Trubite24 has made the advancement [Bewitched]
+[21:29:58] [Server thread/INFO]: GabrielM3 lost connection: Disconnected
+[21:29:58] [Server thread/INFO]: GabrielM3 left the game
+[21:29:58] [Server thread/INFO]: [voicechat] Disconnecting client GabrielM3
+[21:30:01] [Server thread/INFO]: Trubite24 lost connection: Disconnected
+[21:30:01] [Server thread/INFO]: Trubite24 left the game
+[21:30:01] [Server thread/INFO]: [voicechat] Disconnecting client Trubite24
